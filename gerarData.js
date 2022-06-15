@@ -1,7 +1,7 @@
 function diaDeHoje (){
     const hoje = new Date();
-    //return(hoje.toLocaleDateString());
-    return "6/16/2022"
+    return(hoje.toLocaleDateString());
+
 };
 
 export default diaDeHoje;
